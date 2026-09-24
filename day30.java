@@ -76,5 +76,5 @@ class Solution {
               while (index < bit.length) {
                   bit[index] = Math.max(bit[index], value);
                   index += index & -index;
-              }
+              
     
